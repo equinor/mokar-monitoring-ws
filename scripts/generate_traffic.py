@@ -4,7 +4,7 @@ from random import randint, seed, choice
 from time import sleep, time
 import requests
 
-SERVER_URL = 'https://<prefix>-inventory.app.playground.radix.equinor.com'
+SERVER_URL = 'https://mokar-inventory.app.playground.radix.equinor.com'
 SLEEP_LENGTH = 2000
 
 def print_request(method, url, status_code):
